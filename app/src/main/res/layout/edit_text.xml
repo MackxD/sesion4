@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="0"
+        />
+
+    <Button
+        android:id="@+id/Boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sumar" />
+
+    <Button
+        android:id="@+id/Boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restar"
+        android:backgroundTint="#AA0000"/>/>
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="email@gmail.com"
+        />
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="77126548"
+        />
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Martin Hernadez"
+        />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar/Desactivar"
+        android:checked="false"/>
+    <TextView
+        android:id="@+id/Pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:text="Que es un boton?"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/Opcion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es una interfaz grafica que el usuario puede visualizar"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/Opcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es algo que se puede oprimir"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/Opcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Es un apagador"></RadioButton>
+    </RadioGroup>
+</LinearLayout>
